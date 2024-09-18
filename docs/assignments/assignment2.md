@@ -13,7 +13,10 @@ layout: doc
 **Comparables**
 
 TEST
-<img src="C:\Documents\espn-1.png" alt="Description of Image" width="500" height="300">
+
+<!-- <img src="C:\Documents\espn-1.png" alt="Description of Image" width="500" height="300"> -->
+
+![](../images/gh-actions.png){:width='200'}
 
 <br><br>
 <u><b>Feature Ideas:</b></u>
