@@ -12,11 +12,20 @@ layout: doc
 
 **Comparables**
 
-TEST
-
-<!-- <img src="C:\Documents\espn-1.png" alt="Description of Image" width="500" height="300"> -->
-
-![](../images/gh-actions.png){:width='200'}
+The authentication feature could be based off of Piazza's college authentication feature. This will ensure only students who actually attend those universities can join.
+![](../images/authentication_img-1.png){:width='500'}
+<br>
+ESPN's score feature could be used as inspiration to display each school's sports team's live scores.
+![](../images/espn2_img-1.png){:width='1000'}
+<br>
+Since threads would be the main feature of the app, the organizational layout could be similar to Piazza's thread with a search function and tags.
+![](../images/piazza_img-1.png){:width='500'}
+<br>
+To display events and where people are on campus, Snapchat's "Snapmap" feature could be used as inspiration.
+![](../images/snapchat_img-1.png){:width='700'}
+<br>
+Reddit's upvoting system could be implemented for threads and comments posted by people
+![](../images/reddit_img-1.png){:width='500'}
 
 <br><br>
 <u><b>Feature Ideas:</b></u>
