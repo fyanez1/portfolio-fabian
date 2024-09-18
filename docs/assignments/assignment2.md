@@ -77,3 +77,4 @@ Reddit's upvoting system could be implemented for threads and comments posted by
 
 <br><br>
 <u><b>Storyboarding and Sketching:</b></u>
+![](../images/IMG_3470.png){:width='500'}
