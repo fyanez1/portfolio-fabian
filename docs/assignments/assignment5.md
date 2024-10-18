@@ -3,6 +3,11 @@ title: Assignment 5 - Frontend Design & Implementation
 layout: doc
 ---
 
+**Links** <br>
+[Frontend repo](https://github.com/fyanez1/SeniorSale-frontend) <br>
+[Vercel deployment](https://senior-sale-frontend.vercel.app/)
+<br>
+
 **Heuristic Evaluation** <br>
 
 Note: Wireframes are found below for reference.
