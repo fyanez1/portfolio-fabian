@@ -3,6 +3,10 @@ title: Assignment 5 - Frontend Design & Implementation
 layout: doc
 ---
 
+**Visual Design Study** <br>
+![](../images/fontInspo-1.png){:width='500'} <br>
+![](../images/colorInspo-1.png){:width='500'}
+
 **Links** <br>
 [Frontend repo](https://github.com/fyanez1/SeniorSale-frontend) <br>
 [Vercel deployment](https://senior-sale-frontend.vercel.app/)
