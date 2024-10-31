@@ -1,0 +1,39 @@
+---
+title: Assignment 6 - User Testing & Analysis
+layout: doc
+---
+
+**Task List** <br>
+
+| Task               | Instruction                                                           | Rationale                                                                                                                                                                                        |
+| ------------------ | --------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Register and login | Register for the app and log in                                       | I want to see if it is easy to find the login page and whether or not it is obvious to the user that they should do this before anything else.                                                   |
+| Sell item          | Sell an item of your choosing                                         | I want to see how easy it is to find the "sell item" page and whether or not selling an item is self explanatory.                                                                                |
+| Find item          | Find an MIT cap and show me its description                           | I want to test whether or not a search bar would be necessary or if scrolling through the items is sufficiently easy to find an item.                                                            |
+| Claim item         | Join the queue for the MIT cap and tell me your position on the queue | I want to see if telling the user to "join the queue" implies to them they have to claim the item to see if the functionality of the page is clear enough with the instruction on the item page. |
+| Post comment       | Ask the seller if they are willing to lower the price                 | I want to see if the user thinks of posting a comment if they have a question they want to ask the seller.                                                                                       |
+
+**Study 1** <br>
+
+<p>When I first told the user to log in, they were easily able to do so. They had to look for the login button on the navigation bar for a couple seconds. However, it was still fairly fast. When told to sell an item, the same thing happened. Their initial instinct was not to go to the navigation bar. They were expecting the home page to have a "sell item" button. When told to find a specific item, they were able to do so in an intuitive way by scrolling through the home page. However, it was easy only because the amount of data is currently not very large. If the number of users who use the page were to grow, there would be many more items being sold. Scrolling through dozens or hundreds of items would then make it extremely hard to find specific items. I believe a search bar is the best solution for this since having categories and being able to filter through categories would increase the complexity of selling a new item by having to assign categories to it. Searching items by keywords is easier and more effective. Additionally, I realized that the home page is cluttered with items that could have been sold already. There is currently not a way to delete items from the frontend. The most user-friendly way to implement this would be to have a button that only the seller of the item can click to essentially mark it as sold, which would then trigger the API that deletes items. When I asked the user to ask the seller a question about the item, it was not immediately obvious to them that they should use the comment section. In fact, their first instinct was to use the contact information and they were not sure what the comment section was for. Finally, when the user tried claiming an item they were easily able to figure out how to do it. However, they did note that there was a bit of lag when the position and queue updated after clicking the "claim/unclaim" button. </p>
+<br>
+<b>Possible improvements:</b><br>
+<ul>
+    <li>Minor flaw (physical) - The queue and position take about a second to update whenever the user clicks "claim" or "unclaim". This could be improved by using a store instead of calling the API each time. </li>
+    <li>Minor flaw (linguistic) - If the user wants to ask the seller a question, it is not clear whether they should contact them using the provided contact or post a comment. The contact information could be placed closer to the comments and it might be useful to provide a small note telling the user they can either contact the user directly or post a comment. </li>
+    <li>Minor flaw (conceptual) - The home page does not have a "sell item" button. The only way to get to this page is through the navigation bar. The home page could have a  "sell item" button.</li>
+    <li>Major flaw (conceptual) - Items currently remain on the home page after being sold. There should be a page for sellers to see the queues for their items and mark it as "sold" so that the item is then deleted from the database. </li>
+    <li>Major flaw (physical) - The position in the queue does not show up when the click claim item. It used to work but after a change I made it stopped working. I was already aware of this bug before user testing.</li>
+</ul>
+
+**Study 2** <br>
+
+<p>Similar to the first study, this person also noted that it was difficult to find a specific item. In fact, they specifically stated that they expected there to be a search bar since most websites with a list of items have some sort of function. When asked to sell an item, they noticed that it is only possible to submit online images rather than being able to upload from their own computer. I explained that the original intention was to allow uploading images but for the sake of time I only allowed image links to be entered. However, they also said that they wished they could submit more than one picture because they wanted to sell a t-shirt and the front of the shirt was different from the back. This could be easily implemented, as well as allowing users to toggle through the different images of an item. However, since the home page only shows one image they would likely have to indicate which image is the primary one. When creating a second item, they tried bypassing entering an image link and left it blank, which resulted in an item being sold without an image. Luckily, I already accounted for this and made each field required. Therefore, there was no need for additional instructions on the "sell item" page. When asked to ask the seller a question, this person was not as confused as the first person in understanding what the comment section is for. However, they were not sure whether they should use the contact info or comment section. When asked to claim an item, they did not struggle at all and were able to figure it out almost immediately, likely because of the size and color of the claim button. </p>
+<br>
+<b>Possible improvements:</b><br>
+<ul>
+    <li>Major flaw (conceptual) - It takes too long to find a specific item by just scrolling through the list. The most recently posted items appear first but a search function would be very useful if the user is looking to buy something specific.</li>
+    <li>Moderate flaw (linguistic) - It is not clear exactly what the comment section is for. Instead of "Comments", it could be rephrased as "Ask the seller a question".</li>
+    <li>Minor flaw (physical) - The queue is currently displayed as a list of usernames. This could be made more readable by turning it into a numbered list. </li>
+    <li>Moderate flaw (conceptual) - If the user wants to show multiple sides of an item they are selling in the picture, they are not able to because they can only submit a single image. Allowing multiple images to be submitted would greatly improve the experience for both buyers and sellers. </li>
+</ul>
