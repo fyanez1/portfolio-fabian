@@ -155,7 +155,7 @@ layout: doc
 
 ### Storyboard and sketches
 
-![](../images/sketch3-1.png){:width='500'} <br>
-![](../images/sketch4-1.png){:width='500'} <br>
+![](<../images/sketch3-1%20(1).png>){:width='500'} <br>
+![](<../images/sketch4-1%20(1).png>){:width='500'} <br>
 ![](../images/Sketches-1.png){:width='500'} <br>
 ![](../images/Sketches-2.png){:width='500'}
