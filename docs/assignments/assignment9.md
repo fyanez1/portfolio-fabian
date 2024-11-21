@@ -165,7 +165,7 @@ Our application plans to make use of the following concepts, along with pre-exis
     - Points.awardOnePoint(author)
 
 **Dependency Diagram**  
-![][image1]
+![](../images/dependency.png){:width='600'}
 
 **2- Wireframes**
 
@@ -213,6 +213,8 @@ Wellness points validity
 - When logging exercises, some users may log fake exercises to gain more points. To prevent this from happening, at least one other user must upvote/like the post in order to verify its validity. This way, the point system is more likely to be accurate and users will be more deterred from lying.
 
 **5- Visual Design Study**
+![](../images/P3_slide_1.png){:width='600'}
+![](../images/P3_slide_2.png){:width='600'}
 
 **6- Implementation Plan**
 
