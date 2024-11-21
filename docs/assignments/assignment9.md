@@ -167,7 +167,7 @@ Our application plans to make use of the following concepts, along with pre-exis
 **Dependency Diagram**  
 ![](../images/dependency.png){:width='600'}
 
-**2- Wireframes**
+**2- [Wireframe](https://www.figma.com/design/WZdmW26hcITQfsOFeTydTf/6.1040-Project?node-id=13-42&t=RswVyj2vuJzprSQS-1)**
 
 **3- Heuristic Evaluation**
 
