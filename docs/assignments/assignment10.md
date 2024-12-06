@@ -7,7 +7,7 @@ layout: doc
 
 ## Account Login info
 
-- username: Sophia2
+- username: sophia2
 - password: 1234
 
 ## User Test Tasks
